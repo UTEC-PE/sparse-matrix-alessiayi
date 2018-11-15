@@ -112,7 +112,7 @@ class Matrix {
                         T value = 0;
                         for (int r = 0; r < columns; r++)
                             value += this->operator()(r, i) * other(j, r);
-                        c->set(i, j, value);
+                        col->set(i, j, value);
                     }
 
                 }
